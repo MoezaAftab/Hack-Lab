@@ -1,0 +1,18 @@
+{
+  "name": "campus-gig-skillswap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campus Gig & SkillSwap Portal hackathon project",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3000",
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "0.17.4",
+    "vite": "^6.1.0"
+  },
+  "devDependencies": {}
+}

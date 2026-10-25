@@ -1,0 +1,884 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ilsa Iftikhar",
+      "major": "Software Engineering",
+      "semester": 5,
+      "bio": "Software engineering student at MUET. I enjoy building useful things, learning new tools, and collaborating with creative people.",
+      "skills": [
+        "Java",
+        "HTML & CSS",
+        "Problem Solving",
+        "Presentation Design"
+      ],
+      "email": "ilsa@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Areeba Shah",
+      "major": "Computer Systems Engineering",
+      "semester": 5,
+      "bio": "UI designer who loves turning messy ideas into clear, friendly interfaces.",
+      "skills": [
+        "UI/UX Design",
+        "Figma",
+        "Prototyping"
+      ],
+      "email": "areeba@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Hamza Memon",
+      "major": "Software Engineering",
+      "semester": 6,
+      "bio": "Frontend developer. Happy to help juniors get started with web development.",
+      "skills": [
+        "JavaScript",
+        "HTML & CSS",
+        "Git"
+      ],
+      "email": "hamza@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Zoya Ahmed",
+      "major": "Computer Science",
+      "semester": 4,
+      "bio": "Writer and editor with a soft spot for research and clear explanations.",
+      "skills": [
+        "Writing",
+        "Editing",
+        "Research"
+      ],
+      "email": "zoya@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Daniyal Raza",
+      "major": "Electrical Engineering",
+      "semester": 7,
+      "bio": "Math tutor and problem solver. I make difficult concepts feel manageable.",
+      "skills": [
+        "Mathematics",
+        "Physics",
+        "Tutoring"
+      ],
+      "email": "daniyal@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Maham Ali",
+      "major": "Software Engineering",
+      "semester": 3,
+      "bio": "Graphic designer and social media creative. Let's make your next project stand out.",
+      "skills": [
+        "Graphic Design",
+        "Canva",
+        "Social Media"
+      ],
+      "email": "maham@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Saad Khan",
+      "major": "Civil Engineering",
+      "semester": 6,
+      "bio": "I can help with technical drawings, reports, and presentation cleanup.",
+      "skills": [
+        "AutoCAD",
+        "Reports",
+        "PowerPoint"
+      ],
+      "email": "saad@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Hira Qureshi",
+      "major": "Computer Science",
+      "semester": 5,
+      "bio": "Python learner and peer tutor, especially for programming fundamentals.",
+      "skills": [
+        "Python",
+        "Programming",
+        "Tutoring"
+      ],
+      "email": "hira@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Usman Brohi",
+      "major": "Mechanical Engineering",
+      "semester": 4,
+      "bio": "Video editor who likes short-form storytelling and clean cuts.",
+      "skills": [
+        "Video Editing",
+        "CapCut",
+        "Premiere Pro"
+      ],
+      "email": "usman@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Noor Fatima",
+      "major": "Software Engineering",
+      "semester": 7,
+      "bio": "Helping students polish CVs, portfolios, and professional profiles.",
+      "skills": [
+        "CV Writing",
+        "LinkedIn",
+        "Proofreading"
+      ],
+      "email": "noor@example.com"
+    },
+    {
+      "id": 11,
+      "name": "Bilal Junejo",
+      "major": "Telecommunication Engineering",
+      "semester": 5,
+      "bio": "Happy to swap language practice for coding help or design feedback.",
+      "skills": [
+        "Networking",
+        "English",
+        "Public Speaking"
+      ],
+      "email": "bilal@example.com"
+    },
+    {
+      "id": 12,
+      "name": "Anaya Sheikh",
+      "major": "Computer Systems Engineering",
+      "semester": 3,
+      "bio": "Presentation maker and beginner-friendly study notes creator.",
+      "skills": [
+        "PowerPoint",
+        "Notes",
+        "Canva"
+      ],
+      "email": "anaya@example.com"
+    }
+  ],
+  "gigs": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "title": "Need a portfolio landing page",
+      "description": "Need a clean responsive landing page for my student portfolio. I have the content ready; need help with layout and implementation.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 3500,
+      "deadline": "2026-10-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "I can design your presentation",
+      "description": "I will turn your rough notes into a polished, consistent presentation for class or a project demo.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1500,
+      "deadline": "2026-11-02",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-19T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "user_id": 6,
+      "title": "Swap: Java help for UI feedback",
+      "description": "I can explain Java basics and loops. In exchange, I would love feedback on a simple UI design.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-06",
+      "status": "In Progress",
+      "accepted_applicant_id": 1,
+      "created_at": "2026-10-18T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "user_id": 7,
+      "title": "Proofread your report or assignment",
+      "description": "I can check grammar, clarity, flow, and formatting while keeping your own ideas and voice.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 800,
+      "deadline": "2026-10-23",
+      "status": "Completed",
+      "accepted_applicant_id": 12,
+      "created_at": "2026-10-17T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "user_id": 8,
+      "title": "Need help understanding calculus",
+      "description": "Looking for a patient peer to explain derivatives and integration before my sessional.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-10-01",
+      "status": "Expired",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-16T10:00:00Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "title": "I can make social media graphics",
+      "description": "Custom social media post graphics for a society event or student project.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2026-10-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-15T10:00:00Z"
+    },
+    {
+      "id": 7,
+      "user_id": 10,
+      "title": "Need help with a CV",
+      "description": "I can help with basic HTML/CSS in exchange for feedback on my CV and LinkedIn profile.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-02",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-14T10:00:00Z"
+    },
+    {
+      "id": 8,
+      "user_id": 11,
+      "title": "Python fundamentals study buddy",
+      "description": "Let's work through beginner Python exercises together and build confidence with the fundamentals.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-06",
+      "status": "In Progress",
+      "accepted_applicant_id": 3,
+      "created_at": "2026-10-13T10:00:00Z"
+    },
+    {
+      "id": 9,
+      "user_id": 12,
+      "title": "Edit a short event video",
+      "description": "Looking for someone to edit a 60–90 second event recap with captions and music.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 2000,
+      "deadline": "2026-10-23",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-12T10:00:00Z"
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "title": "PowerPoint cleanup for project demo",
+      "description": "I'll improve slide hierarchy, spacing, typography, and visual consistency for your demo.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2026-10-25",
+      "status": "Completed",
+      "accepted_applicant_id": 4,
+      "created_at": "2026-10-11T10:00:00Z"
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "title": "Need AutoCAD drawing assistance",
+      "description": "Need guidance cleaning up a technical drawing and understanding layer organization.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1800,
+      "deadline": "2026-10-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-10T10:00:00Z"
+    },
+    {
+      "id": 12,
+      "user_id": 4,
+      "title": "Swap English speaking for coding basics",
+      "description": "I can practise spoken English with you if you help me understand programming basics.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-02",
+      "status": "Completed",
+      "accepted_applicant_id": 1,
+      "created_at": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": 13,
+      "user_id": 5,
+      "title": "Java loops practice session",
+      "description": "Friendly peer session covering for-loops, arrays, and beginner problem-solving.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-06",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": 14,
+      "user_id": 6,
+      "title": "Need a logo for society event",
+      "description": "Need a simple memorable logo concept for a student society event.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 2500,
+      "deadline": "2026-10-01",
+      "status": "Expired",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-19T10:00:00Z"
+    },
+    {
+      "id": 15,
+      "user_id": 7,
+      "title": "I can format your research report",
+      "description": "I'll help make headings, references, tables, and spacing consistent.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2026-10-25",
+      "status": "Completed",
+      "accepted_applicant_id": 3,
+      "created_at": "2026-10-18T10:00:00Z"
+    },
+    {
+      "id": 16,
+      "user_id": 1,
+      "title": "Find bugs in a beginner web page",
+      "description": "I can pair-program with you to find layout or JavaScript errors in a small page.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-10-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-17T10:00:00Z"
+    },
+    {
+      "id": 17,
+      "user_id": 9,
+      "title": "Need notes for data structures",
+      "description": "Looking for concise revision notes and a study session for stacks and queues.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-02",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-16T10:00:00Z"
+    },
+    {
+      "id": 18,
+      "user_id": 10,
+      "title": "Can help build a simple portfolio",
+      "description": "Responsive personal portfolio with sections for projects, skills, and contact details.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 4000,
+      "deadline": "2026-11-06",
+      "status": "In Progress",
+      "accepted_applicant_id": 2,
+      "created_at": "2026-10-15T10:00:00Z"
+    },
+    {
+      "id": 19,
+      "user_id": 11,
+      "title": "Swap: Canva design for video edit",
+      "description": "I can design a poster or event post in Canva if you help edit a short clip.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-10-23",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-14T10:00:00Z"
+    },
+    {
+      "id": 20,
+      "user_id": 12,
+      "title": "Need a clear project proposal",
+      "description": "Looking for help making a student project proposal clearer and better organized.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2026-10-25",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-13T10:00:00Z"
+    },
+    {
+      "id": 21,
+      "user_id": 2,
+      "title": "Math tutoring for first years",
+      "description": "Peer tutoring for basic algebra, functions, and calculus foundations.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 700,
+      "deadline": "2026-10-28",
+      "status": "Completed",
+      "accepted_applicant_id": 11,
+      "created_at": "2026-10-12T10:00:00Z"
+    },
+    {
+      "id": 22,
+      "user_id": 3,
+      "title": "Need Figma feedback on app screens",
+      "description": "I can test your interface and share practical feedback in exchange for feedback on mine.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2026-11-02",
+      "status": "Completed",
+      "accepted_applicant_id": 4,
+      "created_at": "2026-10-11T10:00:00Z"
+    },
+    {
+      "id": 23,
+      "user_id": 4,
+      "title": "I can proofread your CV",
+      "description": "A quick second pair of eyes for typos, clarity, and formatting in your CV.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-11-06",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-10T10:00:00Z"
+    },
+    {
+      "id": 24,
+      "user_id": 5,
+      "title": "Help me set up Git and GitHub",
+      "description": "Need a beginner-friendly walkthrough of repositories, commits, and pushing a project.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-10-23",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": 25,
+      "user_id": 6,
+      "title": "I can create clean class notes",
+      "description": "Organized typed notes from your provided outline, with headings and examples.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 500,
+      "deadline": "2026-10-25",
+      "status": "Cancelled",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T10:00:00Z"
+    },
+    {
+      "user_id": 6,
+      "title": "aa",
+      "description": "a",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 23423,
+      "deadline": "2026-10-28",
+      "status": "Completed",
+      "accepted_applicant_id": 4,
+      "created_at": "2026-10-21T08:59:39.271Z",
+      "id": 26
+    },
+    {
+      "user_id": 6,
+      "title": "s",
+      "description": "s",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 2222,
+      "deadline": "2026-10-28",
+      "status": "Completed",
+      "accepted_applicant_id": 4,
+      "created_at": "2026-10-21T09:00:48.796Z",
+      "id": 27
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "gig_id": 1,
+      "applicant_id": 4,
+      "message": "I can help structure the page and build a responsive layout.",
+      "status": "Pending",
+      "created_at": "2026-10-20T11:30:00Z"
+    },
+    {
+      "id": 2,
+      "gig_id": 1,
+      "applicant_id": 6,
+      "message": "I have made portfolio pages and can start this week.",
+      "status": "Pending",
+      "created_at": "2026-10-19T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "gig_id": 2,
+      "applicant_id": 3,
+      "message": "I can share the content and preferred style today.",
+      "status": "Pending",
+      "created_at": "2026-10-18T11:30:00Z"
+    },
+    {
+      "id": 4,
+      "gig_id": 2,
+      "applicant_id": 5,
+      "message": "I have experience making class presentations.",
+      "status": "Rejected",
+      "created_at": "2026-10-17T11:30:00Z"
+    },
+    {
+      "id": 5,
+      "gig_id": 3,
+      "applicant_id": 1,
+      "message": "I can exchange Java support for UI feedback.",
+      "status": "Accepted",
+      "created_at": "2026-10-16T11:30:00Z"
+    },
+    {
+      "id": 6,
+      "gig_id": 4,
+      "applicant_id": 12,
+      "message": "I can proofread and return notes on clarity.",
+      "status": "Accepted",
+      "created_at": "2026-10-15T11:30:00Z"
+    },
+    {
+      "id": 7,
+      "gig_id": 5,
+      "applicant_id": 7,
+      "message": "I can explain the topic in a study session.",
+      "status": "Rejected",
+      "created_at": "2026-10-14T11:30:00Z"
+    },
+    {
+      "id": 8,
+      "gig_id": 6,
+      "applicant_id": 9,
+      "message": "I can make a set of matching social graphics.",
+      "status": "Pending",
+      "created_at": "2026-10-13T11:30:00Z"
+    },
+    {
+      "id": 9,
+      "gig_id": 7,
+      "applicant_id": 1,
+      "message": "Happy to review your CV in exchange for web basics.",
+      "status": "Pending",
+      "created_at": "2026-10-12T11:30:00Z"
+    },
+    {
+      "id": 10,
+      "gig_id": 8,
+      "applicant_id": 3,
+      "message": "I would like to join the Python study session.",
+      "status": "Accepted",
+      "created_at": "2026-10-21T11:30:00Z"
+    },
+    {
+      "id": 11,
+      "gig_id": 9,
+      "applicant_id": 2,
+      "message": "I can edit a short recap and add captions.",
+      "status": "Pending",
+      "created_at": "2026-10-20T11:30:00Z"
+    },
+    {
+      "id": 12,
+      "gig_id": 10,
+      "applicant_id": 4,
+      "message": "I can clean up spacing and slide hierarchy.",
+      "status": "Accepted",
+      "created_at": "2026-10-19T11:30:00Z"
+    },
+    {
+      "id": 13,
+      "gig_id": 11,
+      "applicant_id": 7,
+      "message": "I can help with layer organization.",
+      "status": "Pending",
+      "created_at": "2026-10-18T11:30:00Z"
+    },
+    {
+      "id": 14,
+      "gig_id": 12,
+      "applicant_id": 1,
+      "message": "Let's practise English and work on coding basics.",
+      "status": "Accepted",
+      "created_at": "2026-10-17T11:30:00Z"
+    },
+    {
+      "id": 15,
+      "gig_id": 13,
+      "applicant_id": 12,
+      "message": "I'd like to practise loops together.",
+      "status": "Pending",
+      "created_at": "2026-10-16T11:30:00Z"
+    },
+    {
+      "id": 16,
+      "gig_id": 14,
+      "applicant_id": 1,
+      "message": "I can sketch a few logo directions.",
+      "status": "Rejected",
+      "created_at": "2026-10-15T11:30:00Z"
+    },
+    {
+      "id": 17,
+      "gig_id": 15,
+      "applicant_id": 3,
+      "message": "I can help format the report.",
+      "status": "Accepted",
+      "created_at": "2026-10-14T11:30:00Z"
+    },
+    {
+      "id": 18,
+      "gig_id": 16,
+      "applicant_id": 8,
+      "message": "I can pair-program and explain the errors.",
+      "status": "Pending",
+      "created_at": "2026-10-13T11:30:00Z"
+    },
+    {
+      "id": 19,
+      "gig_id": 17,
+      "applicant_id": 5,
+      "message": "I have some notes and can study together.",
+      "status": "Pending",
+      "created_at": "2026-10-12T11:30:00Z"
+    },
+    {
+      "id": 20,
+      "gig_id": 18,
+      "applicant_id": 2,
+      "message": "I can help implement a responsive portfolio.",
+      "status": "Accepted",
+      "created_at": "2026-10-21T11:30:00Z"
+    },
+    {
+      "id": 21,
+      "gig_id": 19,
+      "applicant_id": 9,
+      "message": "I can trade a video edit for a Canva poster.",
+      "status": "Pending",
+      "created_at": "2026-10-20T11:30:00Z"
+    },
+    {
+      "id": 22,
+      "gig_id": 20,
+      "applicant_id": 4,
+      "message": "I can help revise your proposal.",
+      "status": "Pending",
+      "created_at": "2026-10-19T11:30:00Z"
+    },
+    {
+      "id": 23,
+      "gig_id": 21,
+      "applicant_id": 11,
+      "message": "I can tutor the algebra topics.",
+      "status": "Accepted",
+      "created_at": "2026-10-18T11:30:00Z"
+    },
+    {
+      "id": 24,
+      "gig_id": 22,
+      "applicant_id": 6,
+      "message": "I can give feedback on the screens.",
+      "status": "Rejected",
+      "created_at": "2026-10-17T11:30:00Z"
+    },
+    {
+      "id": 25,
+      "gig_id": 23,
+      "applicant_id": 1,
+      "message": "I can review the CV for clarity and typos.",
+      "status": "Pending",
+      "created_at": "2026-10-16T11:30:00Z"
+    },
+    {
+      "id": 26,
+      "gig_id": 24,
+      "applicant_id": 12,
+      "message": "I can walk you through Git basics.",
+      "status": "Pending",
+      "created_at": "2026-10-15T11:30:00Z"
+    },
+    {
+      "id": 27,
+      "gig_id": 25,
+      "applicant_id": 5,
+      "message": "I can help organize the notes.",
+      "status": "Rejected",
+      "created_at": "2026-10-14T11:30:00Z"
+    },
+    {
+      "gig_id": 26,
+      "applicant_id": 4,
+      "message": "s",
+      "status": "Accepted",
+      "created_at": "2026-10-21T08:59:51.178Z",
+      "id": 28
+    },
+    {
+      "gig_id": 27,
+      "applicant_id": 4,
+      "message": "d",
+      "status": "Accepted",
+      "created_at": "2026-10-21T09:01:02.020Z",
+      "id": 29
+    },
+    {
+      "gig_id": 22,
+      "applicant_id": 4,
+      "message": "ilsaiftikhar2005@gmail.com",
+      "status": "Accepted",
+      "created_at": "2026-10-21T09:04:50.584Z",
+      "id": 30
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "gig_id": 4,
+      "reviewer_id": 7,
+      "reviewee_id": 12,
+      "rating": 5,
+      "comment": "Very helpful and clear feedback. The report was much easier to follow.",
+      "created_at": "2026-10-10T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "gig_id": 4,
+      "reviewer_id": 12,
+      "reviewee_id": 7,
+      "rating": 5,
+      "comment": "Easy to work with and communicated clearly.",
+      "created_at": "2026-10-11T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "gig_id": 10,
+      "reviewer_id": 2,
+      "reviewee_id": 4,
+      "rating": 4,
+      "comment": "Slides looked much more consistent after the cleanup.",
+      "created_at": "2026-10-12T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "gig_id": 10,
+      "reviewer_id": 4,
+      "reviewee_id": 2,
+      "rating": 5,
+      "comment": "Great communication and clear requirements.",
+      "created_at": "2026-10-12T13:00:00Z"
+    },
+    {
+      "id": 5,
+      "gig_id": 15,
+      "reviewer_id": 7,
+      "reviewee_id": 3,
+      "rating": 5,
+      "comment": "Fast, thoughtful edits and useful suggestions.",
+      "created_at": "2026-10-13T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "gig_id": 15,
+      "reviewer_id": 3,
+      "reviewee_id": 7,
+      "rating": 4,
+      "comment": "Helpful and friendly throughout the process.",
+      "created_at": "2026-10-13T13:00:00Z"
+    },
+    {
+      "id": 7,
+      "gig_id": 21,
+      "reviewer_id": 2,
+      "reviewee_id": 11,
+      "rating": 5,
+      "comment": "Explained the topic step by step and checked my understanding.",
+      "created_at": "2026-10-14T12:00:00Z"
+    },
+    {
+      "id": 8,
+      "gig_id": 21,
+      "reviewer_id": 11,
+      "reviewee_id": 2,
+      "rating": 5,
+      "comment": "Punctual, patient, and easy to communicate with.",
+      "created_at": "2026-10-14T13:00:00Z"
+    },
+    {
+      "gig_id": 26,
+      "reviewer_id": 6,
+      "reviewee_id": 4,
+      "rating": 4,
+      "comment": "ss",
+      "created_at": "2026-10-21T09:00:29.478Z",
+      "id": 9
+    },
+    {
+      "gig_id": 27,
+      "reviewer_id": 6,
+      "reviewee_id": 4,
+      "rating": 4,
+      "comment": "Very good!",
+      "created_at": "2026-10-21T09:01:41.285Z",
+      "id": 10
+    },
+    {
+      "gig_id": 12,
+      "reviewer_id": 4,
+      "reviewee_id": 1,
+      "rating": 3,
+      "comment": "n",
+      "created_at": "2026-10-21T09:06:29.444Z",
+      "id": 11
+    }
+  ]
+}
